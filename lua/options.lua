@@ -1,6 +1,7 @@
 -- config.options
 
-vim.g.mapleader = " "
+vim.g.mapleader   = " "
+vim.opt.clipboard = "unnamedplus"
 
 -- Indentation / Whitespace
 vim.opt.tabstop     = 4
