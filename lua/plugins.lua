@@ -16,6 +16,7 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
   require("config.fzf"),
   require("config.oil"),
+  require("config.theme"),
   require("config.blink"),
   require("config.treesitter"),
   require("config.mason"),
