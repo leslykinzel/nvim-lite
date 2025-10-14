@@ -32,7 +32,7 @@ return {
       virt_text = true,
 
       virt_text_pos = "eol", -- "eol" | "overlay" | "right_align"
-      delay = 500,
+      delay = 100,
       ignore_whitespace = false,
       virt_text_priority = 100,
       use_focus = true,
@@ -49,5 +49,10 @@ return {
       row = 0,
       col = 1
     },
-  }
+  },
+  init = function()
+    local bufopts = { noremap = true, silent = true }
+    vim.keymap.set("n", "<leader>gits", ":Gitsigns toggle_signs<CR>", bufopts)
+    vim.keymap.set("n", "<leader>gitb", ":Gitsigns toggle_current_line_blame<CR>", bufopts)
+  end
 }
