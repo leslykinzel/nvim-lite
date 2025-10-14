@@ -19,4 +19,5 @@ require("lazy").setup({
   require("config.blink"),
   require("config.treesitter"),
   require("config.mason"),
+  require("config.gitsigns"),
 })
