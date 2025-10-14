@@ -68,5 +68,6 @@ vim.api.nvim_create_autocmd("LspAttach", {
   end
 })
 
+vim.lsp.enable({ "basedpyright" })
 vim.lsp.enable({ "gopls" })
 vim.lsp.enable({ "luals" })
