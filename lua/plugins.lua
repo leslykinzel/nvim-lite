@@ -20,4 +20,5 @@ require("lazy").setup({
   require("config.treesitter"),
   require("config.mason"),
   require("config.gitsigns"),
+  require("config.mini-move"),
 })
