@@ -22,3 +22,6 @@ vim.keymap.set("n", "<Esc>", ":nohlsearch<CR>", default_opts)
 
 -- Toggle line numbers
 vim.keymap.set("n", "<C-n>", ":set number!<CR>", default_opts)
+
+-- Go to normal mode from terminal mode
+vim.keymap.set("t", "<Esc>", "<C-\\><C-n>", default_opts)
