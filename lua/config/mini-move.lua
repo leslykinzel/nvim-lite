@@ -9,10 +9,10 @@ return {
       down  = "<C-j>",
       up    = "<C-k>",
       -- Normal
-      line_left  = nil,
-      line_right = nil,
-      line_down  = nil,
-      line_up    = nil,
+      line_left  = "",
+      line_right = "",
+      line_down  = "",
+      line_up    = "",
     },
   },
 }
