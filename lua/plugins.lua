@@ -21,4 +21,5 @@ require("lazy").setup({
   require("config.mason"),
   require("config.gitsigns"),
   require("config.mini-move"),
+  require("config.mini-align"),
 })
