@@ -22,4 +22,5 @@ require("lazy").setup({
   require("config.gitsigns"),
   require("config.mini-move"),
   require("config.mini-align"),
+  require("config.ergoterm"),
 })
