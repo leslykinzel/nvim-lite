@@ -16,6 +16,10 @@ return {
     keymaps_help = { border = "solid", },
     progress = { border = "solid", },
     ssh = { border = "solid", },
+    keymaps = {
+      ["<C-h>"] = false,
+      ["<C-l>"] = false,
+    },
   },
   lazy = false,
   init = function()
