@@ -1,13 +1,13 @@
 {
   "blink.cmp": { "branch": "main", "commit": "b19413d214068f316c78978b08264ed1c41830ec" },
-  "ergoterm.nvim": { "branch": "main", "commit": "282571ca452a0b3659f609e3c3af6cd6de15a310" },
-  "fzf": { "branch": "master", "commit": "2ab923f3ae04d5e915e5ff4a9cd3bd515bfd1ea5" },
+  "ergoterm.nvim": { "branch": "main", "commit": "adc2201811b3217c76ca8b44149ff6b0bf7109db" },
+  "fzf": { "branch": "master", "commit": "b473477c22559ee22cccf6c58df838cf578475c2" },
   "fzf.vim": { "branch": "master", "commit": "879db51d0965515cdaef9b7f6bdeb91c65d2829e" },
-  "gitsigns.nvim": { "branch": "main", "commit": "cdafc320f03f2572c40ab93a4eecb733d4016d07" },
+  "gitsigns.nvim": { "branch": "main", "commit": "5813e4878748805f1518cee7abb50fd7205a3a48" },
   "lazy.nvim": { "branch": "main", "commit": "85c7ff3711b730b4030d03144f6db6375044ae82" },
   "mason.nvim": { "branch": "main", "commit": "57e5a8addb8c71fb063ee4acda466c7cf6ad2800" },
   "mini.align": { "branch": "main", "commit": "969bdcdf9b88e30bda9cb8ad6f56afed208778ad" },
   "mini.move": { "branch": "main", "commit": "4fe4a855fee53c66b0f3255a4b54ddc2ae6b308c" },
   "nvim-treesitter": { "branch": "master", "commit": "42fc28ba918343ebfd5565147a42a26580579482" },
-  "oil.nvim": { "branch": "master", "commit": "7e1cd7703ff2924d7038476dcbc04b950203b902" }
+  "oil.nvim": { "branch": "master", "commit": "cbcb3f997f6f261c577b943ec94e4ef55108dd95" }
 }
